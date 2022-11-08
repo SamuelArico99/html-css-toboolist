@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+}
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    vertical-align: middle;
+}
+.title{
+    vertical-align: middle;
+}
+.addnew{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 40px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 2px;
+}
+.list{
+    padding-left: 50px;
+}
+.titlelist::before{
+    content:'\25BC';
+}
+.radiuscheck{
+     display: inline-block;
+    background-color: orange;
+     border-radius: 50%;
+     width: 15px;
+    height: 15px;
+    text-align: center;
+
+}
