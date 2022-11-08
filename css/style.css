@@ -6,27 +6,55 @@
 header{
     background-color: white;
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 60px;
 }
 body{
     background-color: gray;
     font-family: 'Roboto', sans-serif;
 }
-#addtask, #addsection, #editorial, #q1goals, #recruting{
+#addtask, #addsection, #editorial, #q1goals, #recruting, #mobile, #website, #sales{
     width: 100px;
     height: 25px;
     border-radius: 10px;
+    color: white;
     font-family: 'Roboto', sans-serif; ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #addsection{
     margin-left: 5px;
+    height: 30px;
+    border-radius: 5px;
+    color: gray;
+    background-color: white;
+    border-color: lightgrey;
 }
 #addtask{
-    background-color: blue;
+    background-color: rgba(71,173,241,255);
     color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+#editorial{
+    background-color: rgba(69,171,234,255);
+}
+#q1goals{
+    background-color: rgba(156,114,228,255);
+}
+#recruting{
+    background-color: rgba(100,192,169,255);
+}
+#mobile{
+    background-color: orange;
+}
+#website{
+    background-color: purple;
+}
+#sales{
+    background-color: green;
 }
 .logo{
+    margin-left: 20px;
     vertical-align: middle;
 }
 .title{
@@ -38,7 +66,7 @@ body{
     margin: 0 auto;
     background-color: white;
     margin-top: 40px;
-    height: 50px;
+    height: 60px;
     border-radius: 5px;
 }
 .container{
@@ -47,9 +75,11 @@ body{
     background-color: white;
     margin-top: 2px;
     border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .list{
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 50px;
 }
 .titlelist::before{
